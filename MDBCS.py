@@ -24,7 +24,7 @@ path=config.read()
 currentdate=datetime.date(datetime.now())
 
 root = Tk()
-root.title("MDBCS Software - Harshit ")
+root.title("MDBCS Software")
 imgicon = PhotoImage(file=os.path.join('2.gif'))
 root.tk.call('wm', 'iconphoto', root._w, imgicon) 
 
